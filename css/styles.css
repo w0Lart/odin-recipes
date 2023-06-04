@@ -1,7 +1,65 @@
+html {
+  box-sizing: border-box;
+}
+*,*::before,*::after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: bisque;
+  background-color: wheat;
 }
-#uniq {
-  color: blue;
+
+.all {
+  width: 550px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 5px 5px;
+}
+
+.receps {
+  margin: 0px;
+  padding: 0px;
+}
+
+.reps {
+  display: inline-block;
+  border: 2px solid white;
+  width: 150px;
+  height: 50px;
+  padding: 15px;
+  cursor: pointer;
+  margin: 15px;
+  border-radius: 5px;
+  background-color: rgb(197, 241, 140);
+}
+
+.reps:hover{
+  background-color: rgba(203, 105, 216, 0.329);
+}
+
+.maintext {
+  margin: 5px;
+  padding: 5px;
+}
+
+.social {
+  display: inline-block;
+  border: 2px solid white;
+  width: 80px;
+  height: 30px;
+  padding: 5px;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: rgb(197, 241, 140);
+}
+
+.social:hover{
+  background-color:rgba(203, 105, 216, 0.329);
 }
