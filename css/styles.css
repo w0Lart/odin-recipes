@@ -31,11 +31,11 @@ h1 {
   font-size: 15px;
   display: inline-block;
   border: 2px solid white;
-  width: 150px;
-  height: 50px;
-  padding: 15px;
+  width: 145px;
+  height: 40px;
+  padding: 10px;
   cursor: pointer;
-  margin: 10px;
+  margin: 8px;
   border-radius: 5px;
   background-color: rgb(197, 241, 140);
 }
@@ -50,13 +50,14 @@ h1 {
 }
 
 .social {
+  font-size: 15px;
   display: inline-block;
   border: 2px solid white;
   width: 80px;
   height: 30px;
   padding: 5px;
   cursor: pointer;
-  margin: 10px;
+  margin: 5px;
   border-radius: 5px;
   background-color: rgb(197, 241, 140);
 }
