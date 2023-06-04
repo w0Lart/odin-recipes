@@ -7,7 +7,7 @@ html {
 
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: wheat;
+  background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);
 }
 
 .all {
